@@ -1,91 +1,73 @@
-# Car-Sales-Dashboard-Using-Tableau
+# 🚗 Car Sales Dashboard (Tableau)
 
-A dynamic and interactive Tableau dashboard that provides comprehensive insights into car sales performance between **February 2020 and December 2021**. This project analyzes total sales, unit sales, pricing trends, color preferences, body styles, company-wise performance, and regional distribution.
-
----
-
-## 📸 Sample Dashboard View
-
-
-
----
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## 📌 Project Overview
+The **Car Sales Dashboard** is an interactive Tableau dashboard designed to analyze and visualize trends in vehicle sales between **Feb 2020 to Dec 2021**. This dashboard provides deep insights into sales performance, vehicle types, brand performance, and consumer preferences by region and color.
 
-This dashboard was built using **Tableau Public Desktop Edition** to visualize and explore trends in the automotive sales industry. It helps stakeholders identify sales patterns, top-performing regions, popular car models, and key growth metrics.
-
----
-
-## 📅 Date Range
-
-**From:** 02-Jan-2020  
-**To:** 31-Dec-2021
+It consists of **multiple visual layers** within a single interactive sheet for comprehensive business understanding.
 
 ---
 
-## 📊 Key Metrics Displayed
+## 🚀 Features & Visuals
 
-- **YTD Total Sales:** `$371.19M` (+23.59% YoY growth)
-- **YTD Avg Price:** `$27.99K` (-0.79% YoY growth)
-- **YTD Cars Sold:** `13.26K` (+24.57% YoY growth)
-
----
-
-## 📈 Dashboard Visuals
-
-- 📉 **YTD Sales Weekly Trend** – Line chart of weekly sales
-- 🚗 **Sales by Body Style** – Pie chart: SUV, Sedan, etc.
-- 🎨 **Sales by Color** – Donut chart: Pale White, Red, Black
-- 🗺️ **Dealer Region Sales** – Horizontal bar chart: Manual vs Auto
-- 🏷️ **Company-Wise Sales** – Table view of YTD performance
+### **📈 KPIs & Sales Trends**
+- **YTD Total Sales**: `$371.19M` (+23.59% YoY)
+- **YTD Avg Price**: `$27.99K` (−0.79% YoY)
+- **YTD Cars Sold**: `13.26K` (+24.57% YoY)
+- **Weekly Sales Trend**: Line chart showing week-wise sales
 
 ---
 
-## 🎛️ Filters
-
-Interactive filters allow segmentation by:
-- Date Range
-- Transmission Type
-- Body Style
-- Engine Type
-- Gender
+### **🚘 Sales by Category**
+- **Body Style Analysis**: Pie chart showing Hatchback, SUV, Sedan, etc.
+- **Color Popularity**: Donut chart showing top-selling colors (e.g., Pale White, Black)
+- **Company-wise Breakdown**: Table view with YTD units sold, avg price, and % share
+- **Region Performance**: Bar chart by manual/automatic transmission and dealer region
 
 ---
 
-## 💡 Insights
+### 🧭 Interactive Filters
+- **Date Range**
+- **Transmission Type**
+- **Body Style**
+- **Engine Type**
+- **Gender**
 
-- **SUVs and Hatchbacks** dominate the market
-- **Pale White** cars are the most popular color
-- **Austin** is the leading region for car sales
-- **Top companies**: Dodge, Ford, Chevrolet (in both sales and volume)
-
----
-
-## 🧰 Tools Used
-
-- Tableau Public Desktop Edition
-- Excel/CSV Dataset
-- Calculated Fields and Filter Controls
+These filters allow users to drill down and customize the dashboard view.
 
 ---
 
-## 🧠 Learnings
+### 🖼️ Sample Dashboard View
 
-- How to design and structure multi-sheet Tableau dashboards
-- Applying filters and actions for interactive analysis
-- Using advanced charts for business-focused storytelling
+![Car Sales Dashboard](Dashboard.png)
 
 ---
 
-## 📬 Contact
-
-**Sai Rithvik Reddy**  
-💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/sai-rithvik-reddy-c-62b111290/)   
-📧 Email: sairithvikc@gmail.com
+## 🛠️ Tech Stack
+- **Tableau Public Desktop**
+- **Excel / CSV Dataset**
+- **Calculated Fields** & **Custom Filters**
 
 ---
 
-## ⭐️ Support This Project
+## 📂 Installation & Usage
+1. **Clone** or **download** the project repo.
+2. Open the `.twb` file using **Tableau Public Desktop**.
+3. Ensure the data source path is correctly linked to the dataset in `/data/`.
+4. Explore the dashboard using filters and visuals.
+5. Use the dashboard for reports, trend analysis, or storytelling.
 
-If you found this useful, give it a ⭐️ on GitHub or fork it for your own portfolio!
+---
 
+## 📜 License
+This project is licensed under the **MIT License**. Click [here](LICENSE) to view details.
+
+---
+
+## 👤 Author
+**C Sai Rithvik Reddy**  
+📧 sairithvikc@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/sai-rithvik-reddy-c-62b111290/) | [GitHub](https://github.com/rithvikreddy93)
+
+---
