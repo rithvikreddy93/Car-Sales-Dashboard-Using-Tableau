@@ -6,7 +6,7 @@ A dynamic and interactive Tableau dashboard that provides comprehensive insights
 
 ## 📸 Sample Dashboard View
 
-![Car Sales Dashboard](./screenshots/car_sales_dashboard.png)
+
 
 ---
 
